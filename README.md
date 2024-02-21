@@ -21,10 +21,97 @@ Participants in this qualification level would be required to execute more compl
 3. **Trigger**: CREATE TRIGGER statement
 4. **Stored Procedure**: CREATE PROCEDURE statement
 
-## 1. Data Retrieval Tasks
+## Data Retrieval Tasks
 
 To retrieve data from a table, use the SELECT statement:
 
 ```sql
 SELECT column1, column2, ...
 FROM table_name;
+```
+
+## Data Filtering and Sorting
+
+To filter and sort data, use the WHERE and ORDER BY clauses:
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition
+ORDER BY column_name;
+```
+
+## Aggregate Functions
+
+To perform aggregate functions such as SUM, AVG, COUNT, MAX, and MIN, use the respective functions:
+
+```sql
+SELECT SUM(column_name) AS sum_column
+FROM table_name;
+```
+
+## Subqueries and Derived Tables
+
+To use subqueries or derived tables, embed a SELECT statement within another SELECT statement:
+
+```sql
+SELECT column1, column2, ...
+FROM (SELECT column1, column2 FROM table_name) AS derived_table;
+```
+
+Data Manipulation and Join Operations
+
+To manipulate data and perform join operations, use UPDATE, INSERT INTO, DELETE, and JOIN statements:
+
+```sql
+UPDATE table_name
+SET column1 = value1
+WHERE condition;
+
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
+
+DELETE FROM table_name
+WHERE condition;
+
+SELECT t1.column1, t2.column2
+FROM table1 t1
+JOIN table2 t2 ON t1.common_column = t2.common_column;
+```
+
+## User Defined Functions
+
+To create user-defined functions, use the CREATE FUNCTION statement:
+
+```sql
+CREATE FUNCTION function_name (parameters)
+RETURNS return_datatype
+AS
+BEGIN
+    -- Function logic here
+END;
+```
+
+## Trigger
+
+To create triggers, use the CREATE TRIGGER statement:
+
+```sql
+CREATE TRIGGER trigger_name
+AFTER INSERT ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END;
+```
+
+## Stored Procedure
+To create stored procedures, use the CREATE PROCEDURE statement:
+
+```sql
+CREATE PROCEDURE procedure_name (parameters)
+AS
+BEGIN
+    -- Procedure logic here
+END;
+```
