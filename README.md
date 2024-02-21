@@ -59,7 +59,7 @@ SELECT column1, column2, ...
 FROM (SELECT column1, column2 FROM table_name) AS derived_table;
 ```
 
-Data Manipulation and Join Operations
+## Data Manipulation and Join Operations
 
 To manipulate data and perform join operations, use UPDATE, INSERT INTO, DELETE, and JOIN statements:
 
