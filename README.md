@@ -1,7 +1,5 @@
-# KombyteCompetition
+## KombyteCompetition
 Welcome to the Kombyte Competition! This README provides syntax documentation to assist participants in completing the competition questions.
-
-## SQL Syntax Documentation
 
 ### Basic SQL Query
 
@@ -28,8 +26,9 @@ Participants in this qualification level would be required to execute more compl
 3. The competition could be conducted online, with participants submitting their SQL queries through a platform that evaluates and scores their submissions automatically.
 4. The participant with the highest total score across both qualification levels would be declared the winner of the competition
 
+## SQL Syntax Documentation
 
-## Data Retrieval Tasks
+### Data Retrieval Tasks
 
 To retrieve data from a table, use the SELECT statement:
 
@@ -38,7 +37,7 @@ SELECT column1, column2, ...
 FROM table_name;
 ```
 
-## Data Filtering and Sorting
+### Data Filtering and Sorting
 
 To filter and sort data, use the WHERE and ORDER BY clauses:
 
@@ -49,7 +48,7 @@ WHERE condition
 ORDER BY column_name;
 ```
 
-## Aggregate Functions
+### Aggregate Functions
 
 To perform aggregate functions such as SUM, AVG, COUNT, MAX, and MIN, use the respective functions:
 
@@ -58,7 +57,7 @@ SELECT SUM(column_name) AS sum_column
 FROM table_name;
 ```
 
-## Subqueries and Derived Tables
+### Subqueries and Derived Tables
 
 To use subqueries or derived tables, embed a SELECT statement within another SELECT statement:
 
@@ -67,7 +66,7 @@ SELECT column1, column2, ...
 FROM (SELECT column1, column2 FROM table_name) AS derived_table;
 ```
 
-## Data Manipulation and Join Operations
+### Data Manipulation and Join Operations
 
 To manipulate data and perform join operations, use UPDATE, INSERT INTO, DELETE, and JOIN statements:
 
@@ -87,7 +86,7 @@ FROM table1 t1
 JOIN table2 t2 ON t1.common_column = t2.common_column;
 ```
 
-## User Defined Functions
+### User Defined Functions
 
 To create user-defined functions, use the CREATE FUNCTION statement:
 
@@ -100,7 +99,7 @@ BEGIN
 END;
 ```
 
-## Trigger
+### Trigger
 
 To create triggers, use the CREATE TRIGGER statement:
 
@@ -113,7 +112,7 @@ BEGIN
 END;
 ```
 
-## Stored Procedure
+### Stored Procedure
 To create stored procedures, use the CREATE PROCEDURE statement:
 
 ```sql
