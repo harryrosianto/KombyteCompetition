@@ -21,6 +21,14 @@ Participants in this qualification level would be required to execute more compl
 3. **Trigger**: CREATE TRIGGER statement
 4. **Stored Procedure**: CREATE PROCEDURE statement
 
+### Overall Competition Structure
+
+1. Participants would be given a fixed amount of time to complete each qualification level.
+2. Each qualification level could consist of multiple tasks, and participants would earn points based on the correctness and efficiency of their queries.
+3. The competition could be conducted online, with participants submitting their SQL queries through a platform that evaluates and scores their submissions automatically.
+4. The participant with the highest total score across both qualification levels would be declared the winner of the competition
+
+
 ## Data Retrieval Tasks
 
 To retrieve data from a table, use the SELECT statement:
