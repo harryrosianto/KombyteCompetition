@@ -26,11 +26,7 @@ Participants in this qualification level would be required to execute more compl
 3. The competition could be conducted online, with participants submitting their SQL queries through a platform that evaluates and scores their submissions automatically.
 4. The participant with the highest total score across both qualification levels would be declared the winner of the competition
 
-## SQL Quick Reference
-
-
-
-## SQL Syntax
+## SQL Quick References
 
 ### SELECT Syntax
 
