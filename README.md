@@ -26,7 +26,128 @@ Participants in this qualification level would be required to execute more compl
 3. The competition could be conducted online, with participants submitting their SQL queries through a platform that evaluates and scores their submissions automatically.
 4. The participant with the highest total score across both qualification levels would be declared the winner of the competition
 
-## SQL Syntax Documentation
+## SQL Quick Reference
+
+
+
+## SQL Syntax
+
+### SELECT Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name;
+```
+
+### COUNT() Syntax
+
+```sql
+SELECT COUNT(column_name)
+FROM table_name;
+```
+
+### WHERE Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+### AND Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2;
+```
+
+### OR Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2;
+```
+
+### ORDER BY Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+```
+
+### INSERT INTO Syntax
+
+```sql
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+```
+
+### UPDATE Syntax
+
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+### DELETE Syntax
+
+```sql
+DELETE FROM table_name
+WHERE condition;
+```
+
+### CREATE DATABASE Syntax
+
+```sql
+CREATE DATABASE database_name;
+```
+
+### DROP DATABASE Syntax
+
+```sql
+DROP DATABASE database_name;
+```
+
+### CREATE TABLE Syntax
+
+```sql
+CREATE TABLE table_name (
+column1 datatype,
+column2 datatype,
+column3 datatype,
+...
+);
+```
+
+### DROP TABLE Syntax
+
+```sql
+DROP TABLE table_name;
+```
+
+### ALTER TABLE Syntax
+
+```sql
+ALTER TABLE table_name
+ADD column_name datatype;
+```
+
+### CREATE INDEX Syntax
+
+```sql
+CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+```
+
+### DROP INDEX Syntax
+
+```sql
+DROP INDEX table_name.index_name;
+```
 
 ### Data Retrieval Tasks
 
