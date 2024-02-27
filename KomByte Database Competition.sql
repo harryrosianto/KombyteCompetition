@@ -78,7 +78,7 @@ VALUES
     ('G44', 'P05', 'Splatoon 2'),
     ('G45', 'P05', 'Mario Kart 8 Deluxe'),
     ('G46', 'P05', 'Super Smash Bros. Ultimate'),
-    ('G47', 'P05', 'Pokémon Sword and Shield'),
+    ('G47', 'P05', 'PokÃ©mon Sword and Shield'),
     ('G48', 'P05', 'Luigi''s Mansion 3'),
     ('G49', 'P05', 'Fire Emblem: Three Houses'),
     ('G50', 'P05', 'Xenoblade Chronicles 2');
@@ -125,14 +125,6 @@ CREATE TABLE GameSales (
     FOREIGN KEY (RegionSalesID) REFERENCES RegionSales(RegionSalesID)
 );
 
-select * from GameSales
-select * from Games
-select * from Publishers
-select * from Platform
-select * from RegionSales
-
-DELETE FROM GameSales;
-
 CREATE TABLE TempGameSales (
     SaleID VARCHAR(6),
     GameID VARCHAR(3),
@@ -145,7 +137,7 @@ CREATE TABLE TempGameSales (
 );
 
 BULK INSERT TempGameSales
-FROM 'C:\Users\penga\OneDrive\Dokumen\KomByte File\GameDataset.csv'
+FROM '<changes this path>\GameDataset.csv'
 WITH (
     FIELDTERMINATOR = ',', 
     ROWTERMINATOR = '\n',    
